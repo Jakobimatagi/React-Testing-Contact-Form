@@ -56,6 +56,7 @@ const ContactForm = () => {
           <textarea
             name="message"
             id="message" 
+            placeholder="type here"
             ref={register({ required: false })} 
           />
         </div>
